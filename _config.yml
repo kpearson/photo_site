@@ -12,7 +12,7 @@ color:
 gems:
   - jekyll-sitemap
 
-baseurl: "/http://trialanderror.io"
+baseurl: "/photo_site"
 
 # Footer settings
 footer: Your Website
