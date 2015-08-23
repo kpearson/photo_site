@@ -9,6 +9,11 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+gems:
+  - jekyll-sitemap
+
+baseurl: "/http://trialanderror.io"
+
 # Footer settings
 footer: Your Website
 
