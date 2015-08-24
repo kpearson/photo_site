@@ -38,5 +38,5 @@ safe: true
 lsi: false
 excerpt_separator: ""
 encoding: "utf-8"
-baseurl: ""
+baseurl: "photo_site"
 
