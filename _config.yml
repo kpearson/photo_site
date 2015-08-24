@@ -1,7 +1,8 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
+title: Pearson Headshots
+email: kit@pearsonheadshots.com
+phone: 213.444.3303
+url: https://pearsonheadshots.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -9,27 +10,33 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
-gems:
-  - jekyll-sitemap
-
-baseurl: "/photo_site"
-
 # Footer settings
 footer: Your Website
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://twitter.com/kit_pearso://twitter.com/kit_pearson
+  - title: instagram
+    url: https://instagram.com/kitpearson
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/kpearson
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+  input: GFM
 permalink: pretty
+gems:
+  - jekyll-sitemap
+safe: true
+lsi: false
+excerpt_separator: ""
+encoding: "utf-8"
+baseurl: ""
+
